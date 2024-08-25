@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSK 3 Vocabulary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>HSK 3 Vocabulary</h1>
+        
+        <div>
+            <label for="minutes">Enter the number of minutes <br>(up to 10 minutes):</label>
+            <br><input type="number" id="minutes" min="1" max="10" value="10">
+            <button id="startTimer">Start</button>
+        </div>
+        
+        <ul id="word-list">
+        </ul>
+        
+        <div id="timer">--:--</div>
+        <audio id="timeoutSound" src="audio/timeout.mp3"></audio>
+        
+        <img id="showPinyin" src="eye.png" alt="Show/Hide Pinyin">
+        <img id="shuffleButton" src="exchange.png" alt="Shuffle Words">
+        
+        <h3>By SOUFYANE HAMIMED, Algerian Student</h3>
+        <h3>Nanjing Polytechnic Institute, Nanjing, China</h3>
+        <h3>تم برمجته بواسطة سفيان حميمد</h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
